@@ -1,4 +1,4 @@
-data<-read.csv("/home/kele/Documents/Work/courses/coursera/peng/household_power_consumption.txt",sep=";",stringsAsFactors=FALSE)
+data<-read.csv("household_power_consumption.txt",sep=";",stringsAsFactors=FALSE)
 data.subset1<-subset(data,data$Date==c("1/2/2007"))
 data.subset2<-subset(data,data$Date==c("2/2/2007"))
 data.subset3<-subset(data,data$Date==c("3/2/2007"))
